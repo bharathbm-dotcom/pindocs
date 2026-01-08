@@ -1,21 +1,21 @@
 openapi: 3.0.0
 info:
   version: 1.8.0
-  title: Route Mobile WhatsApp API
+  title: Pinnacle WhatsApp API
   description: >-
-    Welcome to the Route Mobile developer hub. You'll find comprehensive
-    WhatsApp API documentation to help you start working with Route Mobile as
+    Welcome to the Pinnacle developer hub. You'll find comprehensive
+    WhatsApp API documentation to help you start working with Pinnacle as
     quickly as possible, as well as support if you get stuck. Let's jump right
     in!
 
 
-    For more information, see the [Route Mobile WhatsApp OpenAPI
-    Specifications](https://routemobile.github.io/WhatsApp-Business-API/WBS.html).
+    For more information, see the [Pinnacle WhatsApp OpenAPI
+    Specifications](https://Pinnacle.github.io/WhatsApp-Business-API/WBS.html).
   contact:
-    url: https://developers.routemobile.com/
-    name: Route Mobile Development
+    url: https://developers.Pinnacle.com/
+    name: Pinnacle Development
 servers:
-  - url: https://apis.rmlconnect.net
+  - url: https://apis.pinlab.net
 paths:
   /wba/v2/upload:
     post:
@@ -175,7 +175,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/v2/manage_campaign:
     post:
       tags:
@@ -342,7 +342,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/upload:
     post:
       tags:
@@ -452,7 +452,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/create_product_feed:
     post:
       tags:
@@ -560,7 +560,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/update_product_feed:
     post:
       tags:
@@ -662,7 +662,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/delete_product_feed:
     post:
       tags:
@@ -765,7 +765,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/fetch_product_feed:
     get:
       tags:
@@ -985,7 +985,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/fetch_product_details:
     get:
       tags:
@@ -1106,7 +1106,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/fetch_catalog_details:
     get:
       tags:
@@ -1273,9 +1273,9 @@ paths:
                         brand: Coca-Cola
                         image_url: https://800mycoke.ae/app/images/wa/Cokexxxl.jpg
                     next_url: >-
-                      https://apis.rmlconnect.net/wba/catalog/manager/v1/fetch_catalog_details?access_token=EAAfkxRwYZCloBAPRyGP69xQcIf3MWYUZCwFcMyEHxTdnXCawZCVJy8AHX9ynmmYKNM0ZAgfSOCsdAkZBHPi6yauFIe682jfswkdWcotj5BMlHpjZCiuhWZCLYl52z4b6abEwsg1zxvOVLkBxxxxxxxxxxxxxxxxxxxxxZCBHEXZCK4UrnYL4ymHYHZB0&limit=10&fields=retailer_id,name,price,availability,id,description,color,size,condition,product_type,quantity_to_sell_on_facebook,url,gender,age_group,sale_price,mpn,sale_price_effective_date,brand,custom_label_0,image_url&catalog_id=965968734067732&fetch_details=true&after=QVFIUkFOVWJJX2d0a1BMbEw0Q0Jxxxxxxxxxxxxxxxxxxxx2Y2dDNQN0ZAMU0IzaGJtRlBKUXZACWHpuUEp6YUE5VWdmTWVyT0ZA5U1RBN0RaQ2owcDVPSkJNS3h3&before=
+                      https://apis.pinlab.net/wba/catalog/manager/v1/fetch_catalog_details?access_token=EAAfkxRwYZCloBAPRyGP69xQcIf3MWYUZCwFcMyEHxTdnXCawZCVJy8AHX9ynmmYKNM0ZAgfSOCsdAkZBHPi6yauFIe682jfswkdWcotj5BMlHpjZCiuhWZCLYl52z4b6abEwsg1zxvOVLkBxxxxxxxxxxxxxxxxxxxxxZCBHEXZCK4UrnYL4ymHYHZB0&limit=10&fields=retailer_id,name,price,availability,id,description,color,size,condition,product_type,quantity_to_sell_on_facebook,url,gender,age_group,sale_price,mpn,sale_price_effective_date,brand,custom_label_0,image_url&catalog_id=965968734067732&fetch_details=true&after=QVFIUkFOVWJJX2d0a1BMbEw0Q0Jxxxxxxxxxxxxxxxxxxxx2Y2dDNQN0ZAMU0IzaGJtRlBKUXZACWHpuUEp6YUE5VWdmTWVyT0ZA5U1RBN0RaQ2owcDVPSkJNS3h3&before=
                     prev_url: >-
-                      https://apis.rmlconnect.net/wba/catalog/manager/v1/fetch_catalog_details?access_token=EAAfkxRwYZCloBAPRyGP69xQcIf3MWYUZxxxxxxxxxxxxxxxxxxxxx8AHX9ynmmYKNM0ZAgfSOCsdAkZBHPi6yauFIe682jfswkdWcotj5BMlHpjZCiuhWZCLYl52z4b6abEwsg1zxvOVLkBxxxxxxxzVElEol1kLrZCcZCBHEXZCK4UrnYL4ymHYHZB0&limit=10&fields=retailer_id,name,price,availability,id,description,color,size,condition,product_type,quantity_to_sell_on_facebook,url,gender,age_group,sale_price,mpn,sale_price_effective_date,brand,custom_label_0,image_url&catalog_id=9659687xxxxxxxx&fetch_details=true&after=&before=QVFIUl84bDh3UDlaU0tPZAkhDUVJNN3p6c0ktNUZAodktJTXpkekVLMFdwSzllOW5GZAWxSOTQ1NHloUWpxxxxxxxxxxxxxxxxxxVFsVU1ZAaDUzR0tVZAzM3VXZAB
+                      https://apis.pinlab.net/wba/catalog/manager/v1/fetch_catalog_details?access_token=EAAfkxRwYZCloBAPRyGP69xQcIf3MWYUZxxxxxxxxxxxxxxxxxxxxx8AHX9ynmmYKNM0ZAgfSOCsdAkZBHPi6yauFIe682jfswkdWcotj5BMlHpjZCiuhWZCLYl52z4b6abEwsg1zxvOVLkBxxxxxxxzVElEol1kLrZCcZCBHEXZCK4UrnYL4ymHYHZB0&limit=10&fields=retailer_id,name,price,availability,id,description,color,size,condition,product_type,quantity_to_sell_on_facebook,url,gender,age_group,sale_price,mpn,sale_price_effective_date,brand,custom_label_0,image_url&catalog_id=9659687xxxxxxxx&fetch_details=true&after=&before=QVFIUl84bDh3UDlaU0tPZAkhDUVJNN3p6c0ktNUZAodktJTXpkekVLMFdwSzllOW5GZAWxSOTQ1NHloUWpxxxxxxxxxxxxxxxxxxVFsVU1ZAaDUzR0tVZAzM3VXZAB
         '400':
           description: Bad Request
           content:
@@ -1345,7 +1345,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/schedule_product_feed_details:
     get:
       tags:
@@ -1533,7 +1533,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/catalog/manager/v1/fetch_errors:
     get:
       tags:
@@ -1653,7 +1653,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/create_report/myaccounts_panel:
     post:
       tags:
@@ -1802,7 +1802,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/create_campaign_specific_report/myaccounts_panel:
     post:
       tags:
@@ -1981,7 +1981,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/fetch_campaign_specific_report/{report_id}:
     get:
       tags:
@@ -2085,7 +2085,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/fetch_campaign_details:
     get:
       tags:
@@ -2247,7 +2247,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/fetch_reports:
     get:
       tags:
@@ -2410,7 +2410,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wbo/v2/optin/store:
     post:
       tags:
@@ -2539,7 +2539,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
 
   /wbo/v2/optinout/store:
     post:
@@ -2674,7 +2674,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wbo/v2/optin/check:
     get:
       tags:
@@ -2780,7 +2780,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /callbacks:
     post:
       tags:
@@ -2794,8 +2794,8 @@ paths:
         configuration.
 
 
-        For more information, see the [Route Mobile WhatsApp OpenAPI
-        Specifications](https://routemobile.github.io/WhatsApp-Business-API/WBS.html).
+        For more information, see the [Pinnacle WhatsApp OpenAPI
+        Specifications](https://Pinnacle.github.io/WhatsApp-Business-API/WBS.html).
 
 
         ## Callback Error Codes
@@ -3114,7 +3114,7 @@ paths:
                         sha256: 29ed500fa64eb55fc19dc4124acb300e5dcca301ae99xxxxx
                         caption: Check out my new phone!
                         media_url: >-
-                          https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-bxxxxxxxxxxx&username=demo
+                          https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-bxxxxxxxxxxx&username=demo
                       timestamp: '1521497954'
                       type: image
                   brand_msisdn: 9714450xxxx
@@ -3133,7 +3133,7 @@ paths:
                         mime_type: audio/ogg; codecs=opus
                         sha256: fa9e1807d936b7cebe63654ea3a7912923590521efxxxxxxx
                         media_url: >-
-                          https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f68f7xxxxx&username=demo
+                          https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f68f7xxxxx&username=demo
                   brand_msisdn: 9714450xxxx
                   request_id: aebeca32-f125-11eb-8c86-0242acxxxxxx
               Incoming Video:
@@ -3150,7 +3150,7 @@ paths:
                         mime_type: audio/ogg; codecs=opus
                         sha256: fa9e1807d936b7cebe63654ea3a7912923590521exxxxxxxx
                         media_url: >-
-                          https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f68fxxxxxx&username=demo
+                          https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f68fxxxxxx&username=demo
                   brand_msisdn: 97144xxxxxx
                   request_id: aebeca32-f125-11eb-8c86-0242acxxxxxx
               Incoming Document:
@@ -3169,7 +3169,7 @@ paths:
                         mime_type: application/pdf
                         sha256: 3b11fa6ef2bde1dd14726e09d3eda220f6484f32d5d5caa4xxx
                         media_url: >-
-                          https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f6xxxxxxxx&username=demo
+                          https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-b2f6xxxxxxxx&username=demo
                   brand_msisdn: 971445xxxxx
                   request_id: aebeca32-f125-11eb-8c86-0242ac1xxxxx
               Incoming Location:
@@ -3419,7 +3419,7 @@ paths:
                           "mime_type": "image/jpeg",
                           "sha256": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxdcca301ae99944db",
                           "caption": "Check out my new phone!",
-                          "media_url": "https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
+                          "media_url": "https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
                         },
                         "timestamp": "1521497954",
                         "type": "image"
@@ -3442,7 +3442,7 @@ paths:
                           "id": "463eb7ec-ff4e-4d9b-b110-xxxxxxxxxxxx",
                           "mime_type": "audio/ogg; codecs=opus",
                           "sha256": "fa9exxxxxxxxxxxxxxxxxxxxxxxx912923590521ef53b0710",
-                          "media_url": "https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
+                          "media_url": "https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
                         }
                       }
                     ],
@@ -3463,7 +3463,7 @@ paths:
                           "id": "xxxxxxxc-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
                           "mime_type": "audio/ogg; codecs=opus",
                           "sha256": "fa9e1807d936b7cebexxxxxxxxxxxxxxxxxxxxxxxxxxb0710",
-                          "media_url": "https://apis.rmlconnect.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
+                          "media_url": "https://apis.pinlab.net/wba/v1/media?media_id=fc233119-733f-49c-bcbd-xxxxxxxxxxxx&username=demo"
                         }
                       }
                     ],
@@ -3474,7 +3474,7 @@ paths:
         '200':
           description: Success
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/templates:
     get:
       tags:
@@ -3645,7 +3645,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/template/create:
     post:
       tags:
@@ -3653,7 +3653,7 @@ paths:
       summary: Create Template
       description: >-
         Create a template for your message. Learn more about [different WhatsApp
-        templates](https://routemobile.github.io/WhatsApp-Business-API/WBS.html#tag/WhatsApp-Messaging-Template-API/operation/createTemplate).
+        templates](https://Pinnacle.github.io/WhatsApp-Business-API/WBS.html#tag/WhatsApp-Messaging-Template-API/operation/createTemplate).
       operationId: createTemplate
       requestBody:
         description: ''
@@ -4087,7 +4087,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/v1/messages:
     post:
       tags:
@@ -4097,7 +4097,7 @@ paths:
         Send Template and Session Messages API can be used to send either
         template or session messages to customers. Learn more about [WhatsApp
         template and session message
-        APIs](https://routemobile.github.io/WhatsApp-Business-API/WBS.html#tag/WhatsApp-Messaging-Template-API/operation/sendSessionMessageApi).
+        APIs](https://Pinnacle.github.io/WhatsApp-Business-API/WBS.html#tag/WhatsApp-Messaging-Template-API/operation/sendSessionMessageApi).
       operationId: sendSessionMessageApi
       requestBody:
         content:
@@ -5019,7 +5019,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /auth/v1/login/:
     post:
       tags:
@@ -5098,7 +5098,7 @@ paths:
                   value:
                     status: <exception>
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/optin-download:
     get:
       tags:
@@ -5208,7 +5208,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/summary/download_optin_report:
     get:
       tags:
@@ -5336,7 +5336,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
         
   /wba/templates/media-id:
     post:
@@ -5452,7 +5452,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
       
   /wba/media/v1/get-media-id:
     post:
@@ -5577,7 +5577,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
 
   
   /wba/management/v1/wbp-account-details:
@@ -5821,10 +5821,10 @@ paths:
                       business:
                         profile:
                           address: Mumbai, Bengaluru
-                          description: Route Mobile, Route Lab
+                          description: Pinnacle, Route Lab
                           email: username@domain.com
                           websites:
-                            - http://www.routemobile.com/
+                            - http://www.Pinnacle.com/
                           vertical: OTHER
                           about: RML TEST Bot2
                           messaging_product: whatsapp
@@ -5854,7 +5854,7 @@ paths:
                       messaging_limit: TIER_1K
                       number_status: CONNECTED
                       rejection_reason: string
-                      verified_name: RouteMobile (Testing)
+                      verified_name: Pinnacle (Testing)
                     waba_updates:
                       waba_status: CONNECTED
                       waba_quality: high
@@ -5931,7 +5931,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/management/v1/settings/profile/photo:
     post:
       tags:
@@ -6088,7 +6088,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
 
   /wba/template/update:
     patch:
@@ -6345,7 +6345,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /wba/template/:
     delete:
       tags:
@@ -6440,7 +6440,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
   /whatsapp/report/v1/template-count:
     get:
       tags:
@@ -6560,7 +6560,7 @@ paths:
       security:
         - jwt: []
       servers:
-        - url: https://apis.rmlconnect.net
+        - url: https://apis.pinlab.net
 tags:
   - name: WhatsApp Login
     description: Login to WhatsApp Business account.
@@ -6606,13 +6606,13 @@ components:
             their details:
 
             - [Bulk Upload
-            File](https://github.com/routemobile/WhatsApp-Business-API/blob/master/Sample%20Bulk%20Upload%20File.txt)
+            File](https://github.com/Pinnacle/WhatsApp-Business-API/blob/master/Sample%20Bulk%20Upload%20File.txt)
 
             - [Bulk Upload Campaign
-            File](https://github.com/routemobile/WhatsApp-Business-API/blob/master/Sample%20Bulk%20Upload%20Campaign%20File.xlsx)
+            File](https://github.com/Pinnacle/WhatsApp-Business-API/blob/master/Sample%20Bulk%20Upload%20Campaign%20File.xlsx)
 
             - [Campaign
-            File](https://github.com/routemobile/WhatsApp-Business-API/blob/master/Sample%20Campaign%20File%20.csv)
+            File](https://github.com/Pinnacle/WhatsApp-Business-API/blob/master/Sample%20Campaign%20File%20.csv)
           example: ABC.xlsx, ABC.csv, ABC.txt
         file_mimetype:
           type: string
@@ -6970,7 +6970,7 @@ components:
             as ID, name, and image URL. 
 
             See the sample [catalog
-            file](https://github.com/routemobile/WhatsApp-Business-API/blob/master/Sample%20Catalog%20File.csv)
+            file](https://github.com/Pinnacle/WhatsApp-Business-API/blob/master/Sample%20Catalog%20File.csv)
             for more information on catalog details and its format.
           example: ABC.csv
         file_name:
