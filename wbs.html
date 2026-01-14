@@ -1,34 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>PIN API Documentation</title>
+<html>
+  <head>
+    <title>PIN API Documentation</title>
+    <meta charset="utf-8"/>
 
-  <!-- Swagger UI CSS -->
-  <link rel="stylesheet"
-        href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css" />
-</head>
+    <!-- Redoc -->
+    <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
 
-<body>
-  <div id="swagger-ui"></div>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
 
-  <!-- Swagger UI JS -->
-  <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
-  <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-standalone-preset.js"></script>
-
-  <script>
-    window.onload = () => {
-      SwaggerUIBundle({
-        url: "data.yaml",     // OpenAPI YAML
-        dom_id: "#swagger-ui",
-        deepLinking: true,
-        presets: [
-          SwaggerUIBundle.presets.apis,
-          SwaggerUIStandalonePreset
-        ],
-        layout: "BaseLayout"
-      });
-    };
-  </script>
-</body>
+  <body>
+    <redoc spec-url="data.yaml"></redoc>
+  </body>
 </html>
